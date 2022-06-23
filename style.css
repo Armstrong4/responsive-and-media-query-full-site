@@ -45,6 +45,12 @@ header .logo {
     width: 200px;
     height: fit-content;
     align-self: center;
+    animation: 8s ease-in-out 6s infinite running mySlide;
+}
+
+@keyframes mySlide {
+    from{margin-left: 25%;}
+    to{margin-left: 0%;}
 }
 
 header button{
@@ -437,4 +443,9 @@ footer img{
             
         }
             
+}
+@media only screen and (max-width: 450px){
+    header .logo{
+        animation: none;
+    }
 }
