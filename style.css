@@ -95,6 +95,7 @@ header button:active, header button:hover{
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 20px;
+    font-size: 1.7rem;
 }
 
 .hero-left p {
@@ -229,7 +230,7 @@ footer{
     max-width: 1440px;
     width: 100%;
     background-color: hsl(192, 100%, 9%);
-    height: 350px;
+    height: 340px;
 }
 
 .footer-carrier {
@@ -262,8 +263,9 @@ footer{
 }
 
 .socials a{
+    font-size: large;
     margin-right: 20px;
-    padding: 15px;
+    padding: 5px 10px;
     border: 1px solid hsl(208, 11%, 55%);
     border-radius: 50%;
 }
@@ -360,88 +362,89 @@ footer img{
     }
     .box-first,
     .box-third{
-            flex-direction: column-reverse;
-            height: 480px;
-        }
-        .box-second{
-            flex-direction: column;
-            height: 480px;
-        }
-        .box-firstL, .box-firstR, .box-secondL, .box-secondR, .box-thirdL, .box-thirdR{
-            width: 70%;
-            height: 300px;
-            margin: 0 auto;
-        }
-        .box img{
-            width: 100%;
-       
-        }
-        .box-firstL h2, .box-secondR h2, .box-thirdL h2{
-            text-align: center;
-            margin-top: 10px;
-        }
+        flex-direction: column-reverse;
+        height: 480px;
+    }
+    .box-second{
+        flex-direction: column;
+        height: 480px;
+    }
+    .box-firstL, .box-firstR, .box-secondL, .box-secondR, .box-thirdL, .box-thirdR{
+        width: 70%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .box img{
+        width: 100%;   
+    }
+    .box-firstL h2, .box-secondR h2, .box-thirdL h2{
+        text-align: center;
+        margin-top: 10px;
+    }
 
-        .box-firstL p, .box-secondR p, .box-thirdL p{
-            text-align: center;
-            font-size: 1.1rem;
-            margin-top: 15px;
-        }
+    .box-firstL p, .box-secondR p, .box-thirdL p{
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
 
-        .hanger{
-            width: 90%;
-            right: 5%;
-        }
+    .hanger{
+        width: 90%;
+        right: 5%;
+    }
 
-        .hanger button{
-            width: 80%;
-            right: 10%;
-        }
-        footer{
-            width: 100%;
-            height: 100%;
-        }
-        .footer-carrier{
-            flex-direction: column;
-            height: 100vh;
-            padding-top: 20px;
-        }
-        .footer-carrier1, .footer-carrier2, .footer-carrier3, .socials{
-            width: 90%;
-            align-self: flex-start;
-        }
-        .footer-carrier2, .footer-carrier3{
-            width: 40%;
-        }
+    .hanger button{
+        width: 80%;
+        right: 10%;
+    }
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-carrier{
+        flex-direction: column;
+        height: 100vh;
+        padding-top: 20px;
+    }
+    .footer-carrier1, .footer-carrier2, .footer-carrier3, .socials{
+        width: 90%;
+        align-self: flex-start;
+    }
+    
+    .footer-carrier1 img{
+        margin-right: 20px;
+    }
+    .footer-carrier2, .footer-carrier3{
+        width: 40%;
+    }
 
-        .socials{
-            height: 15%;
-            align-self: stretch;
-            margin-top: 10px;
-        }
+    .socials{
+        height: 15%;
+        align-self: stretch;
+        margin-top: 10px;
+    }
 
-        .socials a{
-            margin-right: 10px;
-        }
+    .socials a{
+        margin-right: 10px;
+    }
 
-        .footer-carrier2,
-        .footer-carrier3{
-            height: 30%;
-            margin-top: 10px;
-        }
+    .footer-carrier2,
+    .footer-carrier3{
+        height: 20%;
+        margin-top: 10px;
+    }
 
-        .footer-carrier1 p{
-            font-size: .9rem;
-        }
+    .footer-carrier1 p{
+        font-size: .9rem;
+    }
 
-        .footer-carrier a {
-            font-size: .9rem;
-        }
-
-        .copy{
-            float: none;
-            text-align: center;
-            
-        }
+    .footer-carrier a {
+        font-size: .9rem;
+    }
+    .copy{
+        float: none;
+        text-align: center;       
+    }
             
 }
 @media only screen and (max-width: 450px){
